@@ -6,7 +6,7 @@ library("likert")
 ## https://ladal.edu.au/tutorials/surveys/surveys.html
 
 ##Read and clean data set
-df <- read.csv("HvA TFC TTC_dataset.csv", header=TRUE,)
+df <- read.csv("Survey.csv", header=TRUE,)
 data <- df[, 3:10]
 colnames(data) <-c("Q1","Q2","Q3","Q4","Q5","Q6","Q7","Q8")
 
