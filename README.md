@@ -9,6 +9,6 @@ SCM_analysis.R
 SCM_survey.R
 * Set the working directory by clicking > "Session" > "Set Working directory" > "Source file location".
 * Install dependencies by running.
-* `install.packages("scales","dplyr","likert")`.
+* `install.packages("scales","dplyr","likert","diptest","moments")`.
 * Run the code line by line or select all (Ctrl + A) and click Run.
 * All plots will be newly generated and will show up in the "result" directory.
